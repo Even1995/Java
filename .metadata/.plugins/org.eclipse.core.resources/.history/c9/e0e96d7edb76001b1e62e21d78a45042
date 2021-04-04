@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class exerc4 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		int hora1 = sc.nextInt();
+		int hora2 = sc.nextInt();
+		int duração;
+		if (hora1 < hora2) {
+			duração = hora2 - hora1;
+			System.out.println();
+		}
+		else (hora1 > hora2){
+			duração = hora1 -hora2;
+			System.out.println();
+		}
+		sc.close();
+	}
+
+}

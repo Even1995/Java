@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class exerc7 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		double numb= sc.nextDouble();
+		double imposto;
+		
+		if(numb >= 2000.0) {
+		System.out.printf("ISENTO");
+		
+		}
+		else if(numb <= 25) {
+		
+		}
+		else if(numb <= 50) {
+			
+		}
+		else if(numb <= 75) {
+	
+		}
+		else {
+			System.out.printf("TAXA: R$ %.2f%n", imposto);
+		}
+	
+		sc.close();
+
+	}
+
+}
